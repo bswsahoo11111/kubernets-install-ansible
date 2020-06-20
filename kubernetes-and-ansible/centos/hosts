@@ -1,0 +1,6 @@
+[kubernetes-master-nodes]
+k-master ansible_host=10.128.0.33
+
+[kubernetes-worker-nodes]
+k-worker ansible_host=10.128.0.35
+k-worker2 ansible_host=10.128.0.36
